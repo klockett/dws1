@@ -1,0 +1,29 @@
+/*Children of the body element*/ 
+body {
+	font-family: Arial, Verdana, sans-serif;
+}	
+/*Id of "container"*/
+#container {
+	border: 1px solid #665544;
+	background-color: #efefef;
+	padding: 10px;
+}
+/*Headings*/
+h1, h2 {
+	color: #ee3e80;
+}	
+
+Paragraphs
+p {	
+	color: #665544;
+}	
+	
+/*____strong element____*/
+strong {
+	color: green;
+}
+
+/*EM element */
+em {
+   color: violet;
+}   
