@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(http://fonts.gstatic.com/s/ptsans/v8/CWlc_g68BGYDSGdpJvpktgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ptsans/v8/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+body {
+	font-family: PT Sans, Arial, Verdana, sans-serif;
+    font-size: 16px;}
+   .credits {
+    font-weight: light;}
+   .credits {
+    font-style: italic;}
+ 
+  a:link {
+     color: F5BD07;
+     text-decoration: none;}
+ a:visited {
+    color:000000;}
+ a:hover {
+    color: #07F51B;
+    text-decoration: underline;}
+ a:active {
+    color: 0CA893;}                
+
+  ul {
+     list-style-type: none;
+     text-align: center;
+     width:425px;
+     border-top: 2px solid #000;
+     border-bottom: 1px solid #000;
+     padding: 15 px;
+     margin: 0 auto 0 auto;
+}
+    
+body {
+   background-color: hsl(198,100%,50%);} 
+  p {
+    background-color: hsla(198,100%,85%,1);}  
+ h1, h2, h3 {
+	color: #0C18B2;
+}	
+h1, h2, h3 {
+            text-shadow: 2px 2px #DBE9FF; 
+            
+
+   	
+/*Id of "container"*/
+
+/*Headings*/
+	
