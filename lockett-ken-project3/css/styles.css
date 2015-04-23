@@ -12,37 +12,59 @@ body {
     font-weight: light;}
    .credits {
     font-style: italic;}
- 
-  a:link {
+         p {   
+        border-radius: 5px 20px 10px 5px;
+}   
+      li {
+         border: 1px solid FBD07;
+         width: 400px;
+         padding: 25px;
+         margin: 20px;
+         display: inline-block;
+}   
+     li {   
+        border-radius: 8px 13px;
+}     
+     li {
+        box-shadow: -5px 5px 15px 7px #000;
+}
+   a:link {
      color: F5BD07;
      text-decoration: none;}
- a:visited {
+   a:visited {
     color:000000;}
- a:hover {
+   a:hover {
     color: #07F51B;
     text-decoration: underline;}
- a:active {
-    color: 0CA893;}                
+   a:active {
+    color: 0CA893;} 
+                
 
-  ul {
-     list-style-type: none;
-     text-align: center;
-     width:425px;
-     border-top: 2px solid #000;
-     border-bottom: 1px solid #000;
-     padding: 15 px;
-     margin: 0 auto 0 auto;
+     ul {
+        list-style-type: none;
+        text-align: center;
+        width:425px;
+        border-top: 2px solid #000;
+        border-bottom: 1px solid #000;
+        padding: 15 px;
+        margin: 0 auto 0 auto;
 }
     
 body {
    background-color: hsl(198,100%,50%);} 
   p {
-    background-color: hsla(198,100%,85%,1);}  
+    background-color: hsla(198,100%,85%,1);
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    box-shadow: -5px 5px 15px 7px #000;
+    }  
  h1, h2, h3 {
 	color: #0C18B2;
 }	
 h1, h2, h3 {
-            text-shadow: 2px 2px #DBE9FF; 
+            text-shadow: 2px 2px #DBE9FF;
+             
+ }           
             
 
    	
