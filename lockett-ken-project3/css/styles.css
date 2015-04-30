@@ -27,11 +27,27 @@ body {
          margin: 20px;
          display: inline-block;
 } 
+
+#content {
+   float:right;
+   width: 420px;
+   margin: 10px;
+}
+#navigation {
+   float:left;
+   width: 450px;
+   margin: 10px;
+   
+}     
+
+
 #page {
       width: 960px;
       border: 4px double #000;
       padding: 20px; 
       margin: 10px auto;
+      overflow: auto;
+      
 }
 
 
@@ -72,7 +88,7 @@ body {
         margin: 0 auto 0 auto;
 }
 #navigation {
-    width: 625px:
+    width: 425px:
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     padding: 15px;
@@ -86,7 +102,7 @@ body {
     width: 600px:;
     height: 300px;
     margin: 0 auto;
-    overflow: auto;
+  
 }     
 /* body background color */
     
