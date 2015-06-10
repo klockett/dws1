@@ -1,41 +1,100 @@
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'), local('PTSans-Regular'), url(http://fonts.gstatic.com/s/ptsans/v8/CWlc_g68BGYDSGdpJvpktgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ptsans/v8/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+
+
+
 body {
 	font-family: Arial, Verdana, sans-serif;
-    font-size: 16px;}
-   .credits {
-    font-weight: light;}
-   .credits {
-    font-style: italic;}
- 
-  a:link {
-  color: deepink;
-  text-decoration: none;}
- a:visited {
-  color:black;}
- a:hover {
- color: red; 
- text-decoration: underline;}
- a:active {
-  color: darkcyan;}                
+    font-size: 16px;
+    background-color: hsl(24,100%,50%);
+} 
+  p {
+    background-color: hsla(43,100%,50%,1);
+    }  
+ h1, h2, h3 {
+	color: #7d4403;
+}	
+ h1, h2, h3 {
+            text-shadow: 2px 2px #DBE9FF;  
+    
+}
+  
+    
+   p {   
+    border-radius: 5px 20px 10px 5px;
+}   
+   p {
+    margin: 10px auto;
+   
+}
+   a:link {
+    color: #F5BD07;
+    text-decoration: none;
+}
+   a:visited {
+    color:#000000;
+}
+   a:hover {
+    color: #7d4403;
+    text-decoration: underline;
+}
+   a:active {
+    color: #0CA893;
+}              
+
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: hsl(24,100%,50%);
+     } 
+   
+  p {
+  background-color: hsla(43,100%,50%,1);
+  padding: 25px;
+  margin: 0 auto 0 auto;
+  box-shadow: 2px 1px 2px 1px #000;
+  line-height: 150%;
+  text-align: center
+}
+  }  
+   h1, h2, h3 {
+	         color: #7d4403;
+    }	
+   h1, h2, h3 {
+            text-shadow: 2px 2px #DBE9FF;  
+    
+    
+    
+    
+    }
+
+
+
+
 
 ul {
     list-style-type: none;
-    text-align: center;
-    width:425px;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    padding: 15 px;
-    margin: 0 auto 0 auto;
+   
 }
-    
-body {
-  background-color: hsl(198,100%,50%);} 
-  p {
-  background-color: hsla(198,100%,85%,1);}  
- h1, h2, h3 {
-	color: #0C18B2;
-}	
-h1, h2, h3 {
-            text-shadow: 2px 2px #DBE9FF; 
+ li {
+    border: 1px solid white;
+    width: 175px;
+    padding: 25px;
+    margin: 20px;
+    display: inline-block;
+ }   
+
+  img.medium {
+     width: 400px;
+     height:400px;
+}
+      
             
 
    	
