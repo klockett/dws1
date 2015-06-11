@@ -12,6 +12,15 @@ body {
 	font-family: Arial, Verdana, sans-serif;
     font-size: 16px;
     background-color: hsl(24,100%,50%);
+}
+#container{
+    border: 1px solid #665544;
+    background-color; #efefef;
+    padding:10px;
+
+
+
+        
 } 
   p {
     background-color: hsla(43,100%,50%,1);
