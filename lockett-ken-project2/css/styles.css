@@ -69,7 +69,7 @@ body {
 
 
 
-/* list-style-type, box-shadow */
+/* list-style-type, box-shadow, display */
    
   p {
   background-color: hsla(24,100%,50%,1);
@@ -85,8 +85,11 @@ body {
 ul {
     list-style-type: none;
     text-align:center;
+    width: 875px;
     border-top: 2px solid #000;
-   
+    margin: 10px auto;
+    display: inline-block;
+    
 }
  li {
     border: 1px solid orange;
