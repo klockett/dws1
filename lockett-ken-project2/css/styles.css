@@ -1,3 +1,5 @@
+ /* @font-face */
+ 
   @font-face {
     font-family: 'PT Sans';
     font-style: normal;
@@ -6,13 +8,17 @@
 }
 
 
-
+/* body, font-family, font-size, font-weight, line_height, text-align, background-color                                 */
 
 body {
 	font-family: Arial, Verdana, sans-serif;
     font-size: 16px;
     background-color: hsl(24,100%,50%);
+    line-height: 150%;
+    text-align: center
 }
+
+/* foreground color, and container */
 #container{
     border: 1px solid #000000;
     background-color: #f7eede;
@@ -20,6 +26,7 @@ body {
 
 
 
+/* paragraph-background-color, h1-h3 color and text-shadow */
         
 } 
   p {
@@ -33,7 +40,8 @@ body {
     
 }
   
-    
+/* paragraph border-radius ,margin-center*/    
+
    p {   
     border-radius: 5px 20px 10px 5px;
 }   
@@ -41,6 +49,9 @@ body {
     margin: 10px auto;
    
 }
+
+/* a:link, a:visited, a:hover, and a:active */
+
    a:link {
     color: #F5BD07;
     text-decoration: none;
@@ -57,11 +68,8 @@ body {
 }              
 
 
-body {
-	font-family: Arial, Verdana, sans-serif;
-    font-size: 16px;
-    background-color: hsl(24,100%,50%);
-     } 
+
+/* list-style-type, box-shadow */
    
   p {
   background-color: hsla(24,100%,50%,1);
@@ -71,20 +79,7 @@ body {
   line-height: 150%;
   text-align: center
 }
-  }  
-   h1, h2, h3 {
-	         color: #7d4403;
-    }	
-   h1, h2, h3 {
-            text-shadow: 2px 2px #DBE9FF;  
     
-    
-    
-    
-    }
-
-
-
 
 
 ul {
