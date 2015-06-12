@@ -8,27 +8,30 @@
 }
 
 
-/* body, font-family, font-size, font-weight, line_height, text-align, background-color                                 */
+/* body, font-family, font-size, font-weight, line_height, text-align, background-color                                  font-weight, hsl color and font-style*/
 
 body {
 	font-family: Arial, Verdana, sans-serif;
     font-size: 16px;
     background-color: hsl(24,100%,50%);
     line-height: 150%;
+    font-weight: normal;
+    font-style: normal;
     text-align: center
 }
 
 /* foreground color, and container */
-#container{
+ 
+  #container{
     border: 1px solid #000000;
     background-color: #f7eede;
     padding:10px;
 
+}
 
-
-/* paragraph-background-color, h1-h3 color and text-shadow */
+/* paragraph-background-color, h1-h3 color and text-shadow, hsla color, rgb color and hex color */
         
-} 
+ 
   p {
     background-color: hsla(43,100%,50%,1);
     }  
@@ -36,7 +39,7 @@ body {
 	color: #7d4403;
 }	
  h1, h2, h3 {
-            text-shadow: 2px 2px #DBE9FF;  
+            text-shadow: 2px 2px rgb(250,166,40);  
     
 }
   
