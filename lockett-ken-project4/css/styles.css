@@ -24,13 +24,12 @@ body {
 	font-family: PT Sans, Verdana, sans-serif;
     font-size: 1.000em;
     width: 90%;
-    background: linear-gradient(to bottom, #ffa470 1%,#ff5805 54%);
+    background: linear-gradient(to bottom, #ffa470 1%,#ff5805 54%);    
     line-height: 150%;
     font-weight: normal;
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-    
 }
  table {
    width:39% auto;
@@ -71,7 +70,7 @@ background-color: #c3e6e5;
   
    #seccontent {
    float:right;
-   width:40%;
+   width:35%;
    padding: 3%;
    margin-right: 2%;
 
