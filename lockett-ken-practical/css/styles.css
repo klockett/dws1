@@ -1,10 +1,10 @@
 /************************ Main Styles ************************/
  .featured-first-col {
    float:left;
-   width:25%;
+   width:20%;
    padding: 3%;
    margin-right: 2%;
-   display: inline-block auto;
+   display: inline-block;
   
 }
 
@@ -17,7 +17,7 @@
    width:25%;
    padding: 3%;
    margin-right: 2%;
-   display: inline-block auto;
+   display: inline-block;
   
    
 }
