@@ -1,41 +1,86 @@
 /************************ Main Styles ************************/
- .featured-first-col {
-   float:left;
-   width:20%;
-   padding: 3%;
-   margin-right: 2%;
-   display: inline-block;
+
+
+header {
+   
+  width: 100%;
+  height:730px;
+  margin: 0 auto;
+  background-repeat:no-repeat;
+  background-image: url("../images/homebackground.jpg"); 
+  background-position: center top;
+  background-attachment:fixed ;
   
 }
 
+
+
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font: 16px / 1.5 "Lato", sans-serif;
+	font-family: PT Sans, Verdana, sans-serif;
+    font-size: 1.000em;
+    background-color: white;
+    background-repeat:no-repeat;
+    line-height: 150%;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+
+
+
+/* floated code */
+
+
+ .promo-col {
+   float:  right;
+   width:8%;
+   padding: 3%;
+   margin-right: 15%;
+   display: inline-block;
+   
+  
+}
 
  
 
 
-   .promo-col {
-   float:right;
-   width:25%;
+   .promo {
+   float: right;
+   width:8%;
    padding: 3%;
-   margin-right: 2%;
+   margin-right: 15%;
    display: inline-block;
-  
+   
+   
    
 }
    
-   .promo-first-col {
-   float:right;
-   width:25%;
+
+
+
+ .featured {
+   float:  left;
+   width:8%;
    padding: 3%;
-   margin-right: 2%;
-   display: inline-block auto;
+   margin-right: 15%;
+   display: inline-block;
+ 
   
 }
+
 
 
  #slogan {
   font-size: 60px;
   color: #ffffff;
-   p 34px;
+  display: auto;
  }
  featured {
   font-size: 34px;
@@ -89,26 +134,7 @@ ul {
 
  
  
-body {
-	width: 100%;
-	margin: 0 auto;
-	font: 16px / 1.5 "Lato", sans-serif;
-
-	
-	font-family: PT Sans, Verdana, sans-serif;
-    font-size: 1.000em;
-   
-    background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 45%,#b68d4c 100%,#e9d4b3 100%);
-    background-image: url("../images/homebackground.jpg"); 
-    background-repeat: no-repeat; 
-    background-position: center top;
-    line-height: 150%;
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
-    
-}
-
+/* hover links */
   
   a:link {
     color: #FAFAFA;
