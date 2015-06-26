@@ -1,0 +1,153 @@
+/************************ Main Styles ************************/
+ .featured-first-col {
+   float:left;
+   width:25%;
+   padding: 3%;
+   margin-right: 2%;
+   display: inline-block auto;
+  
+}
+
+
+ 
+
+
+   .promo-col {
+   float:right;
+   width:25%;
+   padding: 3%;
+   margin-right: 2%;
+   display: inline-block auto;
+  
+   
+}
+   
+   .promo-first-col {
+   float:right;
+   width:25%;
+   padding: 3%;
+   margin-right: 2%;
+   display: inline-block auto;
+  
+}
+
+
+ #slogan {
+  font-size: 60px;
+  color: #ffffff;
+   p 34px;
+ }
+ featured {
+  font-size: 34px;
+ 
+ }  
+
+ header, nav {
+   color: #FAFAFA;
+ 
+ 
+}
+ current-page {
+   color: #FAFAFA;
+ 
+ 
+}
+
+
+
+   li {
+   color: #FAFAFA;
+   
+}
+
+
+ul {
+    list-style-type: none;
+   
+    text-align:center;
+    width:  900px;
+    border-bottom: 2px dotted #fff;
+    border-top: 2px dotted #fff;
+    color: #FAFAFA;
+    margin: auto ;
+    display: inline-block;
+
+    
+ 
+    
+    
+}
+ li {
+    width: 100px;
+    padding: 25px;
+    margin: 10px auto;
+    display: inline-block;
+
+}  
+ 
+
+
+ 
+ 
+body {
+	width: 100%;
+	margin: 0 auto;
+	font: 16px / 1.5 "Lato", sans-serif;
+
+	
+	font-family: PT Sans, Verdana, sans-serif;
+    font-size: 1.000em;
+   
+    background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 45%,#b68d4c 100%,#e9d4b3 100%);
+    background-image: url("../images/homebackground.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center top;
+    line-height: 150%;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+  
+  a:link {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+   a:visited {
+    color:#FAFAFA;
+}
+   a:hover {
+    color: #d93600;
+    text-decoration: underline;
+}
+   a:active {
+    color: #0CA893;
+}              
+
+
+
+
+
+
+
+  
+
+ 
+ 
+
+
+  
+
+    
+  
+
+   
+footer {
+     color:white;
+     border: solid black;
+     background-color:#000000;
+     font-size: 12px;
+     
+ 
+}

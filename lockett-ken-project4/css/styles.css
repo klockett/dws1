@@ -16,6 +16,10 @@
       padding: 2px 0 0 35px;
       display: inline-block;
 
+
+   
+ 
+ 
 }
 
 /* body, font-family, font-size, font-weight, line_height, text-align, background-color                                  font-weight, hsl color, font-style, gradient-background, fonts size ems and liquid layout percentages */
@@ -65,6 +69,13 @@ background-color: #c3e6e5;
   
 }
 
+  #form {
+  display: hidden;
+  
+   
+
+}
+
 
 /* floated elements left/right, width/padding/margin */
   
@@ -97,8 +108,8 @@ background-color: #c3e6e5;
   margin: 0 auto 0 auto;
   box-shadow: 2px 1px 2px 1px #000;
   line-height: 150%;
-  text-align: center
-;
+  text-align: center;
+
 }
  /* clear */   
 
@@ -144,17 +155,26 @@ ul {
 #container {
       width: 90%;
       border: 4px double #000;
-      background-image: url("../images/harley wallpapers.jpg");
-      background-repeat: repeat-x;
       background-position: center bottom;
       background-color: #f7eede;
       padding: 20px; 
       margin: 10px auto;
       overflow: auto;
-}    
+      
+}
+
+#footer {
+    background-image: url("../images/harley wallpapers.jpg");
+    background-repeat: repeat-x; 
+    background-position: center bottom;
+    padding: 20px; 
+   
+    margin: 10px auto;
+    overflow: auto;
+      
 
 
-
+}
 /* paragraph-background-color, h1-h3 color and text-shadow, hsla color, rgb color and hex color */
         
  
